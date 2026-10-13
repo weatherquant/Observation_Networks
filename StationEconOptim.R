@@ -23,17 +23,11 @@ suppressPackageStartupMessages({
 # File paths
 # ----------------------------------------------------------
 
-f_sa1_shape <- paste0(
-  "SA1_2021_AUST_GDA2020.shp"
-)
+f_sa1_shape <- paste0("SA1_2021_AUST_GDA2020.shp")
 
-f_population <- paste0(
-  "SA1Pop.csv"
-)
+f_population <- paste0("SA1Pop.csv")
 
-f_fsoi <- paste0(
-  "station_fsoi.txt"
-)
+f_fsoi <- paste0("station_fsoi.txt")
 
 out_dir <- paste0("outputs")
 
