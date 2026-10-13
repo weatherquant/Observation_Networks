@@ -24,24 +24,18 @@ suppressPackageStartupMessages({
 # ----------------------------------------------------------
 
 f_sa1_shape <- paste0(
-  "C:/Users/jwest.INTERNAL/OneDrive - Bureau of Meteorology/",
-  "Documents/Data/Geography/SA1_2021_AUST_GDA2020.shp"
+  "SA1_2021_AUST_GDA2020.shp"
 )
 
 f_population <- paste0(
-  "C:/Users/jwest.INTERNAL/OneDrive - Bureau of Meteorology/",
-  "Documents/Data/Geography/SA1Pop.csv"
+  "SA1Pop.csv"
 )
 
 f_fsoi <- paste0(
-  "C:/Users/jwest.INTERNAL/OneDrive - Bureau of Meteorology/",
-  "Documents/Data/Geography/station_fsoi.txt"
+  "station_fsoi.txt"
 )
 
-out_dir <- paste0(
-  "C:/Users/jwest.INTERNAL/OneDrive - Bureau of Meteorology/",
-  "Documents/Data/Geography/outputs"
-)
+out_dir <- paste0("outputs")
 
 dir.create(out_dir, showWarnings = FALSE, recursive = TRUE)
 
@@ -157,20 +151,14 @@ summary(population_points$Year_2024)
 # Read station FSOI file
 # ----------------------------------------------------------
 
-# setwd("C:/Users/jwest.INTERNAL/OneDrive - Bureau of Meteorology/Documents/Data/Geography")
+# setwd("/Data")
 
-# f_fsoi <- paste0(
-#   "C:/Users/jwest.INTERNAL/OneDrive - Bureau of Meteorology/",
-#   "Documents/Data/Geography/fsoi_aus_network_synops.txt"
-# )
+# f_fsoi <- paste0("fsoi_aus_network_synops.txt")
 
 library(data.table)
 library(dplyr)
 
-data_dir <- paste0(
-  "C:/Users/jwest.INTERNAL/OneDrive - Bureau of Meteorology/",
-  "Documents/Data/Geography"
-)
+data_dir <- paste0("Geography")
 
 f_fsoi <- file.path(data_dir, "fsoi_aus_network_synops.txt")
 
@@ -1471,7 +1459,7 @@ ggsave(
 # total versus per-observation FSOI;
 # different remoteness loadings.
 
-# 10. Generalisable relationships for the paper
+# 10. Generalisable relationships
 # The paper should test relationships rather than only report a selected portfolio.
 # Relationship 1: Remoteness and cost
 # Ci=f(di)C_i=f(d_i)Ci.=f(di.)
