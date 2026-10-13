@@ -1,4 +1,4 @@
-# A Decision-Support Framework for Cost-Constrained Surface Observation Networks
+# Balancing Forecast Value, Service Exposure and Cost in Surface Observation Networks
 
 This study develops a decision-support framework for evaluating how surface-observation networks can preserve forecast value and service exposure under constrained maintenance budgets. 
 
