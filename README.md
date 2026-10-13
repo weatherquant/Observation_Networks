@@ -1,5 +1,4 @@
-# Observation_Networks
-Cost-Constrained Optimisation of Surface Observation Networks for Data Assimilation
+# A Decision-Support Framework for Cost-Constrained Surface Observation Networks
 
 This study develops a decision-support framework for evaluating how surface-observation networks can preserve forecast value and service exposure under constrained maintenance budgets. 
 
